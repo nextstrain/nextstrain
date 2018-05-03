@@ -15,7 +15,7 @@ export default class MainLayout extends React.Component {
     const { children } = this.props;
     return (
       <div>
-        <Helmet>
+        <Helmefds>
           <title>{`${config.siteTitle}`}</title>
           <meta name="description" content={config.siteDescription} />
         </Helmet>
