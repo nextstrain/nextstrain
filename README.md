@@ -4,33 +4,9 @@
 
 <br/>
 
+This repository is archived and contains the content used to build the documentation and splash page found in nextstrain.org.
+This content can now be found [here](https://github.com/nextstrain/nextstrain.org/tree/master/static-site).
 
-[![Build Status](https://travis-ci.com/nextstrain/static.svg?branch=master)](https://travis-ci.com/nextstrain/static)
-
-
-The nextstrain project is an attempt to make flexible informatic pipelines and visualization tools to track ongoing pathogen evolution as sequence data emerges.
-This repository contains the code and content behind the static parts of nextstrain.org (the interactive app codebase is [here](http://github.com/nextstrain/auspice)).
-
-
-Please see [https://nextstrain.org/docs/static-content/introduction](https://nextstrain.org/docs/static-content/introduction) for more detailed information on how this code is organised and how to add content in the form of markdown files.
-
-
-### Installing
-* `git clone https://github.com/nextstrain/static.git`
-* make sure npm & node are installed (on linux & OS-X, [installing nvm](https://nodesource.com/blog/installing-node-js-tutorial-using-nvm-on-mac-os-x-and-ubuntu/) is the best way to do this)
-* `npm install`
-
-### Building locally
-* dev mode: `npm run dev`
-* compile & serve: `npm run build && npm run serve`
-* _note that the interactive dataset page (e.g. /zika) will 404 when built locally_
-
-### Adding content
-* add markdown files to the `/content` directory
-* [this page](https://nextstrain.org/docs/static-content/writing-content) explains the format required
-
-### Deploying:
-* simply push to master. That's it! (Travis CI takes care of the rest)
 
 ## License and copyright
 
